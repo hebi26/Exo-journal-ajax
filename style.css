@@ -1,0 +1,126 @@
+
+body{
+  background-image: url("img/fondark.png");
+  background-attachment: fixed;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+.container{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  background-image: url("img/fondclair.png");
+  background-attachment: fixed;
+  padding: 0;
+}
+.hidden{
+  display: none;
+}
+.container h3{
+padding-top: 30px;
+font-size: 30px;
+}
+.commit{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.container p{
+  width: 70%;
+  margin-left: 15%;
+  font-size: 16px;
+
+}
+hr{
+border: 1px solid black;
+width: 70%;
+}
+.container img{
+  width: 70%;
+  box-shadow: 10px 10px 10px darkgrey;
+  margin-bottom: 30px;
+}
+
+#miniature{
+  width: 120px;
+}
+
+#medium{
+  width: 30%;
+}
+
+.btn{
+width: 120px;
+font-size: 12px;
+margin-bottom: 10px;
+}
+
+.form-control, #File{
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+  width: 80%;
+  margin: auto;
+}
+h3 em{
+  color: white;
+}
+#File{
+  /*width: 50%;*/
+  background-color: white;
+  border-radius: 5px;
+}
+
+#Pseudo{
+  width: 120px;
+  margin-left: 10%;
+}
+
+.comsection{
+  width: 100%;
+  padding-bottom: 50px;
+  margin: 20px 0 0 0;
+  background-color: #303030;
+  border-radius: 0px;
+  border: none;
+}
+
+.comlist{
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+  background-color: white;
+  width: 80%;
+  margin: 20px 10% -10px 10%
+}
+strong{
+  color: green;
+}
+.Com{
+  width: 80%;
+  margin-left: 10%;
+}
+.sr-only, .icon-bar{
+  border: 2px solid white;
+}
+#navbar{
+  position: fixed;
+}
+#navbar a{
+  color: white;
+  padding: 20px 20px;
+  font-size: 16px;
+}
+
+#navbar a:hover, #navabr a:focus{
+  font-size: 18px;
+  color: lightgreen;
+  background-color: inherit;
+  border: 2px solid lightgreen;
+  border-top: none;
+  padding: 18px 18px;
+}
